@@ -1,6 +1,7 @@
 # import all classes needed here
 from Passenger_Class import *
 from Spaceship_Class import *
+from Expedition_Class import *
 
 # create objects here
 
