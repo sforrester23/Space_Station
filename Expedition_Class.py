@@ -27,3 +27,26 @@ class Expedition():
             'passenger_list': self.__passenger_list
         }
         return expedition_dictionary
+
+    def get_origin(self):
+        return self.__origin
+
+    def get_destination(self):
+        return self.__destination
+
+    def get_ship(self):
+        return self.__spacecraft
+
+    def get_passengers(self):
+        return self.__passenger_list
+
+
+    def print_passenger_list(self):
+        count = 1
+        for passenger in self.get_passengers():
+            print('Passenger number {}'.format(count))
+            print('Passenger name:', passenger.name)
+            print('Passenger Species: ', passenger.species)
+            print('Passenger IDR: ', passenger.intergalactic_dna_reg)
+            print('///////////////')
+            count += 1
