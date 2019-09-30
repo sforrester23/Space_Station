@@ -25,7 +25,19 @@ expedition_3 = Expedition('Titan', 'The MIlano')
         # assign a spacecraft to each one
             # (should be able to assign on creation of object OR post_facto)
     # assign to each expedition, two passengers (append, method)
+expedition_1.assign_passenger(passenger_1)
+expedition_1.assign_passenger(passenger_2)
+print(expedition_1.expedition_details())
 
+expedition_2.assign_passenger(passenger_3)
+expedition_2.assign_passenger(passenger_4)
+print(expedition_2.expedition_details())
+
+expedition_3.assign_passenger(passenger_5)
+expedition_3.assign_passenger(passenger_6)
+print(expedition_3.expedition_details())
+
+print(expedition_1.expedition_details()['passenger_list'][1].species)
     # iterate over list of expeditions and print each one
 
     # iterate over list of expeditions

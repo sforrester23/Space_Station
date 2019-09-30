@@ -14,16 +14,16 @@ class Expedition():
     def assign_spaceship(self, spaceship):
         self.__spacecraft = spaceship
 
-    def passenger_add(self, passenger):
+    def assign_passenger(self, passenger):
         self.__passenger_list.append(passenger)
 
-    def expedition_details(self, origin, destination, spacecraft, passenger_list):
+    def expedition_details(self):
         # We want to send a dictionary with
             # origin, destination, ship, passengers#
         expedition_dictionary = {
             'origin': self.__origin,
             'destination': self.__destination,
             'spacecraft': self.__spacecraft,
-            'passenger list': self.__passenger_list
+            'passenger_list': self.__passenger_list
         }
         return expedition_dictionary
