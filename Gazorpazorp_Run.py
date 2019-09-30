@@ -17,7 +17,10 @@ ship_1 = Spaceship('Morgan', 'RPS', 'XYZ1015')
 ship_2 = Spaceship('Marvel', 'Disappointos', 'GPO6185')
 ship_3 = Spaceship('Crunch', 'The Milano', 'TUV8845')
     # generate 3 expeditions
-expedition_1 = Expedition('')
+expedition_1 = Expedition('Mars', 'RPS')
+expedition_2 = Expedition('Alpha Centuri A', 'Disappointos')
+expedition_3 = Expedition('Titan', 'The MIlano')
+
         # keep list of generated expeditions
         # assign a spacecraft to each one
             # (should be able to assign on creation of object OR post_facto)
